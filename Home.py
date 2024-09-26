@@ -25,7 +25,7 @@ student_grad = st.selectbox("Selectionnez votre niveau d'étude", ["Bac", "Bac +
 
 
 # Select slider
-age = st.select_slider("Quel est votre age", range(0, 99)
+age = st.select_slider("Quel est votre age", range(0, 99))
 
 
 

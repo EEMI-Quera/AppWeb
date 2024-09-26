@@ -21,7 +21,7 @@ st.sidebar.title("Kevin Duranty")
 st.sidebar.video("https://www.youtube.com/watch?v=05yfPEf4r_8")
 
 # Select Bare
-st.selectbox("Selectionnez votre niveau d'étude", ["Bac", Bac +2", "BAC+5"])
+st.selectbox("Selectionnez votre niveau d'étude", ["Bac", "Bac +2", "BAC+5"])
 
 
 

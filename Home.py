@@ -17,6 +17,11 @@ st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbMZFucLMvnC70v2
 # Sidebar
 st.sidebar.title("Kevin Duranty")
 
-
 # Vidéo dans la sidebar
 st.sidebar.video("https://www.youtube.com/watch?v=05yfPEf4r_8")
+
+# Select Bare
+st.selectbox("Selectionnez votre niveau d'étude", ["Bac", Bac +2", "BAC+5"])
+
+
+

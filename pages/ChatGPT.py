@@ -12,7 +12,7 @@ from openai import OpenAI
 
 client = OpenAI(api_key=openai_key)
 
-if st.button('send):
+if st.button('send'):
     chat_completion = client.chat.completions.create(
     messages=[
          {

@@ -12,7 +12,8 @@ from openai import OpenAI
 
 client = OpenAI(api_key=openai_key)
 
-chat_completion = client.chat.completions.create(
+if st.button('send):
+    chat_completion = client.chat.completions.create(
     messages=[
          {
           "role": "system",
@@ -67,8 +68,8 @@ chat_completion = client.chat.completions.create(
   top_p=1.0,
   frequency_penalty=0.0,
   presence_penalty=0.0
-)
-
-
-# Réponse de ChapGPT
-st.write(chat_completion.choices[0].message.content)
+    )
+    
+    
+    # Réponse de ChapGPT
+    st.write(chat_completion.choices[0].message.content)

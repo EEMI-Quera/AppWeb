@@ -11,6 +11,8 @@ openai_key = st.sidebar.text_input("Renseignez la clé OpenAI")
 # 3. Intéraction avec OpenAI
 from openai import OpenAI
 
+audio = st.experimental_audio_input('Traducteur automatique')
+
 client = OpenAI(api_key=openai_key)
 image = client.images.generate(
     model="dall-e-2",
